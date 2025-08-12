@@ -1,12 +1,50 @@
-# React + Vite
+# Rakib Hasan - MERN Stack Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my portfolio project!  
+This is a modern, responsive, and sleek developer portfolio website built with React and TailwindCSS along with DaisyUI components and popular icon libraries.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## About Me
 
-## Expanding the ESLint configuration
+Hi, I am **Rakib Hasan**, a passionate **MERN stack developer**.  
+I build scalable and efficient web applications using MongoDB, Express, React, and Node.js.  
+This portfolio showcases my skills, projects, and contact information.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Technologies Used
+
+- **Frontend:**
+  - React
+  - React Router
+  - Tailwind CSS
+  - DaisyUI
+  - React Icons
+  - Font Awesome
+
+
+## Features
+
+- Responsive design optimized for desktop and mobile  
+- Dark and light mode support (if implemented)  
+- Smooth navigation with React Router  
+- Interactive UI components with DaisyUI  
+- Icon integration with React Icons and Font Awesome  
+- Project showcase with live links and GitHub repos  
+- Contact form (if implemented)  
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+Make sure you have Node.js and npm installed on your machine.
+
+### Installation
+
+1. Clone the repo:
+
+```bash
+git clone https://github.com/yourusername/your-portfolio.git
