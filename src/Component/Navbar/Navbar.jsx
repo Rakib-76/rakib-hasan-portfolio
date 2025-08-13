@@ -33,7 +33,7 @@ const Navbar = () => {
 
             {/* Navbar Center (Desktop) */}
             <div className="navbar-center hidden lg:flex">
-                <ul className="menu menu-horizontal px-1">
+                <ul className="menu menu-horizontal px-1 gap-4 ">
                     <NavLink to="/" className={({ isActive }) => isActive ? activeClass : normalClass}>Home</NavLink>
                     <NavLink to="/project" className={({ isActive }) => isActive ? activeClass : normalClass}>Projects</NavLink>
                     <NavLink to="/skill" className={({ isActive }) => isActive ? activeClass : normalClass}>Skill</NavLink>

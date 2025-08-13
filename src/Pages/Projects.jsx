@@ -56,7 +56,7 @@ const Projects = () => {
                             transition={{ duration: 0.3 }}
                             onClick={() => setSelectedProject(project)}
                         >
-                            <img src={project.image} alt={project.name} className="w-full h-48 object-cover" />
+                            <img src={project.image} alt={project.name} className="w-full h-48 object-cover p-2 rounded-xl" />
                             <div className="p-4">
                                 <h3 className="text-xl font-semibold mb-2">{project.name}</h3>
                                 <button className="btn btn-primary mt-2">View More</button>
