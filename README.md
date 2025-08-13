@@ -48,3 +48,14 @@ Make sure you have Node.js and npm installed on your machine.
 
 ```bash
 git clone https://github.com/yourusername/your-portfolio.git
+
+Contact Me
+
+Email: mrrakibhasan76@gmail.com
+LinkedIn: linkedin.com/in/rakib-hasan
+GitHub: github.com/rakibhasan
+
+Thank you for visiting my portfolio!
+
+If you want, I can customize it more with your real links or add any extra sections you want. Just tell me!
+
