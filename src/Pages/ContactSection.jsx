@@ -54,7 +54,7 @@ const ContactSection = () => {
           <div className="flex items-center mb-4 gap-3">
             <FaEnvelope className="text-blue-500 text-xl" />
             <a href="mailto:yourmail@example.com" className="hover:text-blue-400 transition-colors">
-              yourmail@example.com
+              mrrakibhasan76@gmail.com
             </a>
           </div>
 
@@ -62,7 +62,7 @@ const ContactSection = () => {
           <div className="flex items-center mb-6 gap-3">
             <FaPhone className="text-blue-500 text-xl" />
             <a href="tel:+8801234567890" className="hover:text-blue-400 transition-colors">
-              +880 1234-567890
+              +880 1756823597
             </a>
           </div>
 
