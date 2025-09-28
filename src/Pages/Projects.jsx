@@ -19,22 +19,22 @@ const projectsData = [
         name: 'StudyHub',
         image: 'https://i.postimg.cc/nh9PXZP7/Screenshot-134.png',
         techStack: 'React, Tailwind CSS, Firebase, Express js, Node js, mongoDB',
-        description: 'This project implements three user roles: Student, Tutor, and Admin, with JWT-based authentication to ensure role-specific access and protected routes. Tutors can create class sessions, while admins can approve, reject, or remove sessions, set fees, and send feedback messages to tutors. Students can join sessions and take notes during the classes. I mainly used React, TailwindCSS, Firebase, Express.js, Node.js, and other necessary tools to build this project.',
+        description: 'This project implements three user roles: Student, Tutor, and Admin, with JWT-based authentication to ensure role-specific access and protected routes. Tutors can create class sessions, while admins can approve, reject, or remove sessions, set fees, and send feedback messages to tutors. Students can join sessions and take notes during the classes.',
         liveLink: 'https://zap-shift-502f8.web.app/',
         github: 'https://github.com/Rakib-76/studyHub-client-repo',
-        challenges: 'While working on these projects, I faced challenges in implementing role-based access control, managing real-time data updates, and ensuring secure authentication with JWT across different user dashboards. Designing a responsive and interactive UI using TailwindCSS and Framer Motion was also a key challenge.',
-        improvements: 'For future improvements, I plan to optimize performance, add advanced features like notifications and search/filter functionality, and enhance security with improved JWT handling. I also aim to continuously refine the UI/UX for a smoother user experience.'
+        challenges: 'While working on these projects, I faced challenges in implementing role-based access control, and ensuring secure authentication with JWT across different user dashboards.',
+        improvements: 'For future improvements, I plan to optimize performance, add advanced features like notifications and search/filter functionality, and enhance security with improved JWT handling.'
     },
     {
         id: 3,
         name: 'Job Stock',
         image: 'https://i.postimg.cc/d3X9FZvf/Screenshot-135.png',
-        techStack: 'React, Tailwind CSS, Firebase ',
-        description: 'This project allows users to search for jobs and view vacancies from different companies. Users can log in to see detailed job information and apply for positions. I mainly used React, TailwindCSS, Firebase, Express.js, Node.js, and other necessary tools to build this project.',
+        techStack: ' React, TailwindCSS, Firebase, Express.js, Node.js ',
+        description: 'This project allows users to search for jobs and view vacancies from different companies. Users can log in to see detailed job information and apply for positions.',
         liveLink: 'https://silver-yeot-dcb36c.netlify.app',
         github: 'https://github.com/Rakib-76/jobStock-client-side',
         challenges: 'During development, I faced challenges in managing secure authentication and user sessions with Firebase, handling real-time updates for job listings and applications, and creating a responsive and user-friendly interface using TailwindCSS.',
-        improvements: 'For future improvements, I plan to add filtering and search features, implement notifications for application updates, optimize performance for faster load times, and continuously enhance UI/UX for smoother user interaction.',
+        improvements: 'For future improvements, I plan to add filtering and search features, optimize performance for faster load times, and continuously enhance UI/UX for smoother user interaction.',
     },
 ];
 

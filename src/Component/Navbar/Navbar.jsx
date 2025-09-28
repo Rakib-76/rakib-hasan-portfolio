@@ -50,7 +50,7 @@ const Navbar = () => {
                     </div>
 
                     {/* Brand */}
-                    <NavLink to="/" className=" text-xl lg:text-2xl">
+                    <NavLink to="/" className=" text-lg lg:text-2xl">
                         Rakib Hasan
                     </NavLink>
                 </div>
