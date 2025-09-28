@@ -4,12 +4,12 @@ const About = () => {
   return (
     <section className="bg-gray-900 text-white py-16 px-6 md:px-20">
       <div className="">
-            <div className="container mx-auto text-white md:flex gap-5 items-center px-10">
+            <div className="container mx-auto text-white md:flex lg:gap-5 items-center px-10">
                 <div className="md:w-[40%] z-10">
                     <img src='https://i.postimg.cc/HLQjJ0pg/Confident-Smile-Against-Black-Backdrop-removebg-preview.png' alt="" className="" />
                 </div>
                 <div className="md:w-[60%]">
-                    <h3 className="text-3xl text-white font-bold mb-8 py-4">About Me</h3>
+                    <h3 className="text-4xl text-white font-bold mb-4 py-4">About Me</h3>
                     <p className="text-white text-lg pb-3">
                         <span className="font-bold text-2xl">Name & Background:</span> Md Rakib Hasan, Full-Stack Developer. MERN stack learner from Programming Hero Batch-11.
                         <br/>
@@ -21,23 +21,7 @@ const About = () => {
                         <br/>
                         <span className="font-bold text-2xl">Personality:</span> Curious, dedicated, and adaptable; enjoys problem-solving and continuous learning.
                     </p>
-                    <hr/>
-                    <div className="flex gap-10 mt-5 py-3">
-                        <div className="w-1/2">
-                            <span className="text-2xl font-semibold">Name:</span>
-                            <p className="text-lg">Md Rakib Hasan</p>
-                            <span className="text-2xl font-semibold">Phone:</span>
-                            <p className="text-lg">+8801756823597</p>
-                        </div>
-                        <div>
-                            <span className="text-2xl font-semibold">Email:</span>
-                            <p className="text-lg">mrrakibhasan76@gmail.com</p>
-                            <span className="text-2xl font-semibold">LinkedIn:</span>
-                            <p className="text-lg">
-                                https://www.linkedin.com/in/rakib76
-                            </p>
-                        </div>
-                    </div>
+                    
                 </div>
             </div>
         </div>

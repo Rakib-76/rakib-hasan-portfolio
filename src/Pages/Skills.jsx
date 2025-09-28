@@ -48,7 +48,7 @@ const SkillsSection = () => {
   return (
     <section className="bg-gray-900 text-white py-16 px-4">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl font-bold mb-12 text-center">My Skills</h2>
+        <h2 className="text-4xl font-bold mb-12 text-center">My Skills</h2>
 
         {categories.map((cat) => (
           <div key={cat} className="mb-10">

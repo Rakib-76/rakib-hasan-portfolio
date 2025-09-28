@@ -14,17 +14,17 @@ const Home = () => {
             <section>
                 <Banner></Banner>
             </section>
+                <section id='skill'>
+                <Skills></Skills>
+            </section>
             <section id='project'>
                 <Projects></Projects>
             </section>
+              <section id='education'>
+                <EducationSection></EducationSection>
+            </section>
             <section id='about'>
                 <About></About>
-            </section>
-            <section id='skill'>
-                <Skills></Skills>
-            </section>
-            <section id='education'>
-                <EducationSection></EducationSection>
             </section>
             <section id='contact'>
                 <ContactSection></ContactSection>

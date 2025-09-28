@@ -15,7 +15,7 @@ const Footer = () => {
                 <div className="flex flex-col items-center md:items-start text-center md:text-left">
                     <h1 className="font-bold text-2xl">Rakib Hasan</h1>
                     <p className="text-gray-300">
-                        Hi, thanks for visiting my website.
+                        Hi, thanks for visiting my portfolio.
                     </p>
                 </div>
 
@@ -83,6 +83,7 @@ const Footer = () => {
                     </a>
                 </div>
             </div>
+            <p className='text-center mt-10 ml-6'>Copyright © {new Date().getFullYear()} - All right reserved by Md Rakib Hasan</p>
         </footer>
     );
 };

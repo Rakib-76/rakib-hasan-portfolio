@@ -25,12 +25,12 @@ const ContactSection = () => {
   };
 
   return (
-    <section className="bg-gray-900 text-white py-16 px-4" id="contact">
+    <section className="bg-gray-900 text-white py-36 px-4" id="contact">
       <div className="max-w-6xl mx-auto flex flex-col lg:flex-row gap-12">
         
         {/* Form Section */}
         <div className="flex-1">
-          <h2 className="text-3xl font-bold mb-8">Send Me a Message</h2>
+          <h2 className="text-4xl font-bold mb-8">Send Me a Message</h2>
           <form ref={form} onSubmit={sendEmail} className="space-y-4">
             <input
               type="text"
@@ -64,7 +64,7 @@ const ContactSection = () => {
 
         {/* Contact Info Section */}
         <div className="flex-1 space-y-4">
-          <h2 className="text-3xl font-bold mb-8">Contact Information</h2>
+          <h2 className="text-4xl font-bold mb-8">Contact Information</h2>
 
           <div className="flex items-center mb-4 gap-3">
             <FaMapMarkerAlt className="text-blue-500 text-xl" />
