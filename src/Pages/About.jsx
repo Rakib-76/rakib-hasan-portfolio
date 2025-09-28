@@ -3,49 +3,44 @@ import React from "react";
 const About = () => {
   return (
     <section className="bg-gray-900 text-white py-16 px-6 md:px-20">
-      <div className="max-w-5xl mx-auto">
-        <h2 className="text-4xl font-bold mb-8 text-center">About Me</h2>
-
-        {/* Introduction */}
-        <div className="mb-8">
-          <h3 className="text-2xl font-semibold mb-2">Introduction</h3>
-          <p className="text-gray-300 leading-relaxed">
-            Hi, I’m <span className="text-indigo-400 font-medium">Rakib Hasan</span>, a passionate Frontend Developer who loves turning creative ideas into beautiful, functional, and user-friendly web experiences. With expertise in React, Tailwind CSS, and DaisyUI, I specialize in crafting modern, responsive interfaces that deliver both style and performance. My focus is on writing clean, maintainable code and ensuring that every project I build leaves a lasting impact.
-          </p>
+      <div className="">
+            <div className="container mx-auto text-white md:flex gap-5 items-center px-10">
+                <div className="md:w-[40%] z-10">
+                    <img src='https://i.postimg.cc/HLQjJ0pg/Confident-Smile-Against-Black-Backdrop-removebg-preview.png' alt="" className="" />
+                </div>
+                <div className="md:w-[60%]">
+                    <h3 className="text-3xl text-white font-bold mb-8 py-4">About Me</h3>
+                    <p className="text-white text-lg pb-3">
+                        <span className="font-bold text-2xl">Name & Background:</span> Md Rakib Hasan, Full-Stack Developer. MERN stack learner from Programming Hero Batch-11.
+                        <br/>
+                        <span className="font-bold text-2xl">Programming Journey:</span> Started with curiosity about how websites work, leading to building interactive, user-friendly web applications.
+                        <br/>
+                        <span className="font-bold text-2xl">Work Preference:</span> Enjoys working on full-stack projects, handling both front-end and back-end development.
+                        <br/>
+                        <span className="font-bold text-2xl">Hobbies & Interests:</span> Exploring tech trends, playing cricket, and spending time with friends.
+                        <br/>
+                        <span className="font-bold text-2xl">Personality:</span> Curious, dedicated, and adaptable; enjoys problem-solving and continuous learning.
+                    </p>
+                    <hr/>
+                    <div className="flex gap-10 mt-5 py-3">
+                        <div className="w-1/2">
+                            <span className="text-2xl font-semibold">Name:</span>
+                            <p className="text-lg">Md Rakib Hasan</p>
+                            <span className="text-2xl font-semibold">Phone:</span>
+                            <p className="text-lg">+8801756823597</p>
+                        </div>
+                        <div>
+                            <span className="text-2xl font-semibold">Email:</span>
+                            <p className="text-lg">mrrakibhasan76@gmail.com</p>
+                            <span className="text-2xl font-semibold">LinkedIn:</span>
+                            <p className="text-lg">
+                                https://www.linkedin.com/in/rakib76
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-
-        {/* Programming Journey */}
-        <div className="mb-8">
-          <h3 className="text-2xl font-semibold mb-2">My Programming Journey</h3>
-          <p className="text-gray-300 leading-relaxed">
-           My journey began with curiosity — experimenting with HTML & CSS to customize small web pages. Over time, I discovered JavaScript and React, which completely transformed my vision of what I could create. I joined Programming Hero Batch 11, where I learned structured development, built real-world projects, and collaborated with peers to strengthen my skills. From self-learning and online projects to guided mentorship, I’ve built a strong foundation in frontend development. Now, I constantly push myself to learn new tools, frameworks, and best practices to stay ahead in the fast-paced tech world.
-          </p>
-        </div>
-
-        {/* Type of Work */}
-        <div className="mb-8">
-          <h3 className="text-2xl font-semibold mb-2">The Type of Work I Enjoy</h3>
-          <p className="text-gray-300 leading-relaxed">
-            I enjoy working on projects that challenge my problem-solving skills and allow me to be creative. Building interactive UI components, responsive layouts, and smooth animations excites me the most. I love turning wireframes into pixel-perfect designs and ensuring the final product works seamlessly across all devices. Collaborative projects where design meets functionality are my absolute favorite.
-          </p>
-        </div>
-
-        {/* Hobbies */}
-        <div className="mb-8">
-          <h3 className="text-2xl font-semibold mb-2">Hobbies</h3>
-          <p className="text-gray-300 leading-relaxed">
-            Outside of coding, I’m an avid tech explorer — experimenting with new technologies, designing UI mockups, and contributing to small open-source projects. When I’m not in front of the screen, I enjoy reading about emerging tech trends, watching tech tutorials, traveling, and occasionally trying my hand at photography.
-          </p>
-        </div>
-
-        {/* Personality */}
-        <div>
-          <h3 className="text-2xl font-semibold mb-2">My Personality</h3>
-          <p className="text-gray-300 leading-relaxed">
-            I’m detail-oriented, highly adaptable, and always eager to learn. I approach challenges with a problem-solving mindset and believe in continuous improvement. I’m a team player who values communication, creativity, and innovation. At the same time, I enjoy working independently when deep focus is needed. My motto is: <span className="text-indigo-400 font-medium">“Build with passion, refine with purpose.”</span>
-          </p>
-        </div>
-      </div>
     </section>
   );
 };

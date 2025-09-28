@@ -6,6 +6,7 @@ import EducationBg from './EducationSection';
 import EducationSection from './EducationSection';
 import ContactSection from './ContactSection';
 import Projects from './Projects';
+import ScrollToTop from '../Component/ScrollToTop/ScrollToTop';
 
 const Home = () => {
     return (
@@ -13,20 +14,23 @@ const Home = () => {
             <section>
                 <Banner></Banner>
             </section>
-            <section>
+            <section id='project'>
                 <Projects></Projects>
             </section>
-            <section>
+            <section id='about'>
                 <About></About>
             </section>
-            <section>
+            <section id='skill'>
                 <Skills></Skills>
             </section>
-            <section>
+            <section id='education'>
                 <EducationSection></EducationSection>
             </section>
-            <section>
+            <section id='contact'>
                 <ContactSection></ContactSection>
+            </section>
+            <section>
+                <ScrollToTop/>
             </section>
 
         </div>

@@ -24,7 +24,7 @@ const EducationSection = () => {
                 <span className="font-medium">Department:</span> Physics
               </p>
               <p className="text-gray-300 mb-1">
-                <span className="font-medium">Duration:</span> 1/1/2028 - 7/10/2024
+                <span className="font-medium">Duration:</span> 1/1/2018 - 7/10/2024
               </p>
             </div>
           </div>

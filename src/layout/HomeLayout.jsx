@@ -5,7 +5,7 @@ import Footer from '../Component/Footer/Footer';
 
 const HomeLayout = () => {
     return (
-        <div className='bg-black poppins-font p-2'>
+        <div className='bg-gradient-to-br from-[#252541] via-[#191a1d] to-[#28201e]poppins-font p-2'>
             <header className="">
                 <Navbar></Navbar>
             </header>

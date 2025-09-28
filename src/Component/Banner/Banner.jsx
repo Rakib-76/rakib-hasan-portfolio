@@ -1,20 +1,38 @@
 import React from 'react';
 import { FaFacebook, FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import { useTypewriter, Cursor } from 'react-simple-typewriter';
 
 const Banner = () => {
+    const [text] = useTypewriter({
+        words: [
+            "Frontend Developer",
+            "Full-Stack Web Developer",
+            "MERN Stack Developer",
+            "React Developer",
+            "Backend Developer",
+        ],
+        loop: 0,
+        typeSpeed: 120,
+        // delaySpeed: 1300
+    });
     return (
-        <div className="hero min-h-screen">
-            <div className="hero-content flex-col lg:flex-row-reverse lg:gap-96">
-                <img
-                    src="https://i.postimg.cc/HLQjJ0pg/Confident-Smile-Against-Black-Backdrop-removebg-preview.png"
-                    className="max-w-sm rounded-lg shadow-2xl flex-1"
-                />
-                <div className=''>
-                    <h1 className="text-5xl font-bold text-white">Hi This is Md Rakib Hasan !</h1>
-                    <p className="py-6 text-white">
-                        I AM A FRONTEND DEVELOPER
+        <div className="hero max-w-7xl mx-auto min-h-screen">
+            <div className="hero-content flex-col lg:flex-row lg:gap-36 ">
+                <div className='flex-1 mt-20'>
+                    <h3 className="text-3xl font-bold text-white my-5">
+                       Hello, It's Me
+                       </h3>
+                       <h1  className="text-5xl font-bold text-white">
+                        Md Rakib Hasan !
+                        </h1>
+                    <p className="my-5">
+                        <span className="text-3xl text-[#F5EEDD] font-bold">And I'm a </span> <span className="text-3xl text-[#2b7fff] font-semibold">{text}</span>
+                        <Cursor cursorColor="white" />
                     </p>
-                        <button className="btn btn-primary py-6">Download Resume</button>
+                    <p className='text-xl text-[#F5EEDD] my-5'>
+                        A passionate Frontend Developer who loves turning creative ideas into beautiful, functional, and user-friendly web experiences.
+                    </p>
+                    <button className="btn btn-primary py-6">Download Resume</button>
 
 
                     <div className='flex gap-4 py-6'>
@@ -59,9 +77,21 @@ const Banner = () => {
                         </a>
                     </div>
                 </div>
+                <div className="flex justify-center items-center">
+                    <div className="rounded-full p-[4px] bg-gradient-to-br from-[#0f0f1a] via-[#1a1446] to-[#2b7fff] ">
+                        <img
+                            src="https://i.postimg.cc/HLQjJ0pg/Confident-Smile-Against-Black-Backdrop-removebg-preview.png"
+                            alt="profile"
+                            className=" rounded-full object-cover bg-black"
+                        />
+                    </div>
+                </div>
+
             </div>
         </div>
     );
 };
 
 export default Banner;
+
+

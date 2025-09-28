@@ -31,7 +31,7 @@ const SkillBar = ({ skill }) => (
       </div>
       <div className="bg-gray-700 h-4 ">
         <motion.div
-          className="bg-blue-500 h-4"
+          className="bg-[#422ad5] h-4"
           initial={{ width: 0 }}
           whileInView={{ width: `${skill.level}%` }}
           transition={{ duration: 1.5 }}
